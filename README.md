@@ -11,7 +11,7 @@ A simple SKSE plugin for Skyrim using:
 
 > Because this uses CommonLibSSE NG, it supports Skyrim SSE, AE, GOG, and VR!
 
-### What does it do?
+## What does it do?
 
 It writes to a log file whenever certain events in the game happen:
 - Whenever the player or any NPC "activates" something (_e.g. opening a door, interacting with an object, etc_)
