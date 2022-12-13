@@ -1,6 +1,6 @@
 > 📜 other templates available at https://github.com/SkyrimScripting/SKSE_Templates
 
-# SKSE - System Events
+# SKSE - Game Events
 
 A simple SKSE plugin for Skyrim using:
 
@@ -13,15 +13,18 @@ A simple SKSE plugin for Skyrim using:
 
 ### What does it do?
 
-It writes to a log file whenever an SKSE "message" is sent telling the plugin about a system event.
+It writes to a log file whenever certain events in the game happen:
+- Whenever the player or any NPC "activates" something (_e.g. opening a door, interacting with an object, etc_)
+- Whenever a game menu is opened or closed
 
-Events include things like:
-- all SKSE plugins have loaded
-- all .esp/.esm data has been loaded
-- player started a new game
-- player saved the game
-- player loaded a game
-- player deleted a game
+There are many more events which you can easily monitor via your SKSE plugins!
+
+To find some, I recommend searching [CommonLibSSE](https://github.com/CharmedBaryon/CommonLibSSE-NG) for files with `TES*Event` in their names.
+
+1. Visit this link: https://github.com/CharmedBaryon/CommonLibSSE-NG
+2. Press the `T` key to open the fuzzy find file search
+3. Type `TESEvent`
+4. Choose any of the files that show up! They're probably events that you can get via an event sink 😸
 
 Read [`plugin.cpp`](plugin.cpp) for details on what it's doing!
 

@@ -3,7 +3,7 @@
 cmake_minimum_required(VERSION 3.21)
 
 # Set your project name. This will be the name of your SKSE .dll file.
-project(LogSystemEvents VERSION 0.0.1 LANGUAGES CXX)
+project(DetectGameEvents VERSION 0.0.1 LANGUAGES CXX)
 
 # Set <DEPLOY_ROOT> to set the path of a mod to deploy files to.
 # Defaults to the value of environment variable SKYRIM_MODS_FOLDER
