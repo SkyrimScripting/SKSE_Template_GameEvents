@@ -2,6 +2,14 @@
 
 # SKSE - Game Events
 
+- [SKSE - Game Events](#skse---game-events)
+  - [What does it do?](#what-does-it-do)
+  - [Requirements](#requirements)
+  - [Project setup](#project-setup)
+  - [Setup your own repository](#setup-your-own-repository)
+
+---
+
 A simple SKSE plugin for Skyrim using:
 
 - C++
