@@ -59,7 +59,7 @@ It will _automatically_ download [CommonLibSSE NG](https://github.com/CharmedBar
 
 By default, when this project compiles it will output a `.dll` for your SKSE plugin into the `build/` folder.
 
-If you want to configure this project to _automatically_ output your SKSE plugin files
+If you want to configure this project to output your plugin files
 into your Skyrim Special Edition's "`Data`" folder:
 
 - Set the `SKYRIM_FOLDER` environment variable to the path of your Skyrim installation  
@@ -67,8 +67,9 @@ into your Skyrim Special Edition's "`Data`" folder:
 
 <img src="https://raw.githubusercontent.com/SkyrimScripting/Resources/main/Screenshots/Setting%20Environment%20Variables/SKYRIM_FOLDER.png" height="150">
 
-If you want to configure this project to _automatically_ output your SKSE plugin files
-into your "`mods`" folder (_for Mod Organizer 2 or Vortex_):
+If you want to configure this project to output your plugin files
+into your "`mods`" folder:  
+(_for Mod Organizer 2 or Vortex_)
 
 - Set the `SKYRIM_MODS_FOLDER` environment variable to the path of your mods folder:  
   e.g. `C:\Users\<user>\AppData\Local\ModOrganizer\Skyrim Special Edition\mods`  
